@@ -1,0 +1,23 @@
+{
+  "name": "@cardinal/logger",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@cardinal/typescript-config": "workspace:*",
+    "typescript": "7.0.2"
+  },
+  "dependencies": {
+    "@cardinal/types": "workspace:*"
+  }
+}
+
