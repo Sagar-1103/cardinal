@@ -1,2 +1,2 @@
-// Model Context Protocol client and beacon integrations
+// TODO: Connect to external MCP tool servers
 export {};

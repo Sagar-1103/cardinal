@@ -1,2 +1,2 @@
-// Event bus for cross-package communication
+// TODO: Event emitter for streaming and cross-package events
 export {};

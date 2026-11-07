@@ -1,2 +1,2 @@
-// SQLite storage and session repositories
+// TODO: SQLite database and repositories for saving sessions
 export {};

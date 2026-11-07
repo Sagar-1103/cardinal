@@ -1,7 +1,7 @@
-// Roles supported in conversation history
+// Roles for messages in a conversation
 export type MessageRole = "system" | "user" | "assistant" | "tool";
 
-// Single conversational message
+// Represents a single message in the chat history
 export interface Message {
   id: string;
   role: MessageRole;
@@ -11,21 +11,21 @@ export interface Message {
   createdAt: Date;
 }
 
-// Tool invocation requested by the model
+// Tool call requested by the model
 export interface ToolCall {
   id: string;
   name: string;
   arguments: Record<string, unknown>;
 }
 
-// Execution output returned from a tool
+// Result returned after running a tool
 export interface ToolResult {
   toolCallId: string;
   content: string;
   isError: boolean;
 }
 
-// Session metadata stored in database
+// Conversation session metadata
 export interface Session {
   id: string;
   title: string;
@@ -35,13 +35,17 @@ export interface Session {
   updatedAt: Date;
 }
 
-// Token usage reported by LLM providers
+// Token usage reported by the provider
 export interface TokenUsage {
   promptTokens: number;
   completionTokens: number;
   totalTokens: number;
 }
 
-// High-level lifecycle state for the agent runtime
+// Current status of the agent runtime
 export type AgentState =
-  "idle" | "thinking" | "executing" | "streaming" | "error";
+  | "idle"
+  | "thinking"
+  | "executing"
+  | "streaming"
+  | "error";

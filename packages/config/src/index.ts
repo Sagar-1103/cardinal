@@ -1,2 +1,2 @@
-// Configuration loading and validation
+// TODO: Load and validate cardinal.json settings
 export {};

@@ -1,2 +1,2 @@
-// Core agent loop and state machine
+// TODO: Main agent loop that coordinates prompts, tools, and responses
 export {};

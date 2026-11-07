@@ -1,2 +1,2 @@
-// Terminal UI application (Sentinel)
+// TODO: Main terminal UI using Ink and React
 export {};
