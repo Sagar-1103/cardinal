@@ -10,7 +10,8 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "check-types": "tsc --noEmit",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "bun test"
   },
   "devDependencies": {
     "@cardinal/typescript-config": "workspace:*",
