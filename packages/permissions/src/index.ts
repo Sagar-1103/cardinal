@@ -1,2 +1,7 @@
-// TODO: Safety checks and user approval before running actions
-export {};
+// Exports for safety checks and user permission prompts
+export {
+  PermissionChecker,
+  type PermissionLevel,
+  type ApprovalResult,
+  type ApprovalCallback,
+} from "./checker";

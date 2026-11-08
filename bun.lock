@@ -109,6 +109,8 @@
       "name": "@cardinal/permissions",
       "version": "0.0.1",
       "dependencies": {
+        "@cardinal/config": "workspace:*",
+        "@cardinal/events": "workspace:*",
         "@cardinal/types": "workspace:*",
       },
       "devDependencies": {
@@ -161,7 +163,10 @@
       "name": "@cardinal/tools",
       "version": "0.0.1",
       "dependencies": {
+        "@cardinal/events": "workspace:*",
         "@cardinal/types": "workspace:*",
+        "zod": "^3.24.2",
+        "zod-to-json-schema": "^3.24.1",
       },
       "devDependencies": {
         "@cardinal/typescript-config": "workspace:*",
