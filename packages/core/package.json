@@ -10,13 +10,19 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "check-types": "tsc --noEmit",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "bun test"
   },
   "devDependencies": {
     "@cardinal/typescript-config": "workspace:*",
     "typescript": "7.0.2"
   },
   "dependencies": {
+    "@cardinal/config": "workspace:*",
+    "@cardinal/events": "workspace:*",
+    "@cardinal/permissions": "workspace:*",
+    "@cardinal/providers": "workspace:*",
+    "@cardinal/tools": "workspace:*",
     "@cardinal/types": "workspace:*"
   }
 }

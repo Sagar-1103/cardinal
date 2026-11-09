@@ -48,6 +48,11 @@
       "name": "@cardinal/core",
       "version": "0.0.1",
       "dependencies": {
+        "@cardinal/config": "workspace:*",
+        "@cardinal/events": "workspace:*",
+        "@cardinal/permissions": "workspace:*",
+        "@cardinal/providers": "workspace:*",
+        "@cardinal/tools": "workspace:*",
         "@cardinal/types": "workspace:*",
       },
       "devDependencies": {
